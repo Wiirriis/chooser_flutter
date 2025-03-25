@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:go_router/go_router.dart'; // Usando GoRouter para la navegación
 import '../constants/presentation_constants.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -32,10 +31,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       'image': 'assets/welcome/image11.png'
     },
   ];
-
-  void _goToHome() {
-    context.go('/home');
-  }
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,5 @@
 import 'package:chooser/modules/welcome/presentation/pages/welcome_screen.dart';
 import 'package:chooser/modules/home/presentation/pages/home_screen.dart';
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 
